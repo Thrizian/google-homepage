@@ -1,0 +1,90 @@
+nav {
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+}
+
+
+nav ul div {
+	width: 100%;
+
+}
+
+ul  {
+	display: inline-block;
+	list-style: none;
+	width: 50%;
+	margin-right: 10px;
+
+}
+
+nav ul div li {
+    display: inline-block;
+    float: right;
+    margin-left: 10px;
+}
+
+a {
+	color:grey;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav ul div li a{
+	color:black;
+	opacity: .75;
+}
+
+body div#wrapper {
+    height: 233px;
+}
+
+div#go {
+    margin: 0 auto;
+    width: 300px;
+}
+
+input[name="search-input"] {
+    margin: 0 50%;
+    width: 455px;
+    left: -235.5px;
+    position: relative;
+    border-radius: 0;
+    border: 1px solid lightgray;
+    height: 26px;
+}
+
+img[alt="Logo Google"] {
+    margin: 0 50%;
+    position: relative;
+    left: -136px;
+}
+
+input[type="Submit"] {
+    padding: 4px 15px;
+    margin: 20px 0px 5px 5px;
+    border-radius: 1px;
+   	border: 1px solid #f2f2f2;
+    box-shadow: 1px black;
+    color: gray;
+    border-radius: 3px;
+}
+
+input[type="Submit"]:hover {
+    color: black;
+    border: 1px solid lightgray;
+    background: #f2f2f2;
+    border-radius: 3px;
+}
+
+div#footer-right {
+	position:fixed;
+	bottom: 0px;
+	right: 0px;
+}
